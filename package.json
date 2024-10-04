@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxt/image": "^1.8.1",
+    "@nuxtjs/plausible": "^1.0.3",
     "@nuxtjs/seo": "^2.0.0-rc.23",
     "nuxt": "^3.13.0",
     "vue": "latest",
