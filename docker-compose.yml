@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  app:
+    image: node:20-alpine3.19
+    working_dir: /app
+    command: sh -c "yarn install --network-timeout=100000 && yarn dev -o"
+    volumes:
+      - ./:/app
+    ports:
+      - 127.0.0.1:2040:3000
+      - 127.0.0.1:2041:24679
